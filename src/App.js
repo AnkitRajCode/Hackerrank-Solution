@@ -6,7 +6,6 @@ import SubarraySum from './Page/SubarraySum';
 import TaskOfPairing from './Page/TaskOfPairing';
 import stringAnagram from './Page/stringAnagram';
 import hotelConstruction from './Page/hotelConstruction';
-import Footer from './components/Footer';
 
 function App() {
   return (
@@ -21,7 +20,6 @@ function App() {
           <Route path="/hotelConstruction" exact component={hotelConstruction} />
           <Route render={()=><div className="main_title_error">404 : Page Not Found</div>} />
         </Switch>
-      <Footer/>
       </BrowserRouter>
     </div>
   );

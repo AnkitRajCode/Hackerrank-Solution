@@ -8,10 +8,19 @@ const Body = () => {
                 <ol class="list-group list-group-numbered">
                     <Link to="/subarray" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
                         <div class="ms-2 me-auto">
-                        <div class="fw-bold">Subarray</div>
-                        All Test Case
+                        <h4 class="fw-bold">Subarray Sum</h4>
+                         Basic
                         </div>
-                        <span class="badge bg-success round mt-3"><i class="far fa-check-circle"></i></span>
+                        <span class="badge bg-success round mt-3">JavaScript</span>
+                    </Link>
+                </ol>
+                <ol class="list-group list-group-numbered">
+                    <Link to="/Task-of-Pairing" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start mt-3">
+                        <div class="ms-2 me-auto">
+                        <h4 class="fw-bold">Task of Pairing</h4>
+                         Intermediate
+                        </div>
+                        <span class="badge bg-success round mt-3">C++</span>
                     </Link>
                 </ol>
             </div>

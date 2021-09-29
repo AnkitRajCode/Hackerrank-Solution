@@ -8,7 +8,7 @@ const SubarraySum = () => {
                 <img src={subarrayImg} alt="subarray" style={{width:"100%"}} />
             </div>
             <div className="col-md-9">
-                <img src={subarraySolImg} alt="subarray" />
+                <img src={subarraySolImg} alt="subarray" style={{width:"100%"}} />
             </div>
         </div>
     );

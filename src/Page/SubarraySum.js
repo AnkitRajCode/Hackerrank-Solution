@@ -3,9 +3,13 @@ import subarraySolImg from '../image/subarraySol.png';
 
 const SubarraySum = () => {
     return ( 
-        <div className="SubarraySum">
-            <img src={subarrayImg} alt="subarray" />
-            <img src={subarraySolImg} alt="subarray" />
+        <div className="SubarraySum row">
+            <div className="col-md-3">
+                <img src={subarrayImg} alt="subarray" style={{width:"100%"}} />
+            </div>
+            <div className="col-md-9">
+                <img src={subarraySolImg} alt="subarray" />
+            </div>
         </div>
     );
 }

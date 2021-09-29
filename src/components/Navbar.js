@@ -16,7 +16,7 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <div className="navbar-nav mx-auto">
                         <div className="nav-item mr-4">
-                            <a className="nav-link" href="/">Home</a>
+                            <Link className="nav-link" to="/">Home</Link>
                         </div>
                         <div className="nav-item active mr-4">
                             <a className="nav-link active" href="/">NO Bakchodi</a>

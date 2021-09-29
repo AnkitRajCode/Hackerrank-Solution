@@ -1,4 +1,7 @@
 .navbar{
-    width: 100vw;
-  }
+  width: 100vw;
+}
+.navbar-brand img{
+  width: 30px;
+}
   

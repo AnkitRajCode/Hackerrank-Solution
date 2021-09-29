@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/App.css","webpack://src/css/navbar.css"],"names":[],"mappings":"AAAA,EACE,QAAW,CACX,SAAY,CACZ,sBACF,CCJA,QACI,WACF","file":"main.518461de.chunk.css","sourcesContent":["*{\n  margin: 0px;\n  padding: 0px;\n  font-family: sans-serif;\n}",".navbar{\r\n    width: 100vw;\r\n  }\r\n  "]}
